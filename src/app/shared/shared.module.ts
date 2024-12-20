@@ -8,8 +8,20 @@ import { SectionGenericComponent } from './components/section-generic/section-ge
 import { CardPlayerComponent } from './components/card-player/card-player.component';
 
 @NgModule({
-  declarations: [SideBarComponent, HeaderUserComponent, MediaPlayerComponent, SectionGenericComponent, CardPlayerComponent],
+  declarations: [
+    SideBarComponent,
+    HeaderUserComponent,
+    MediaPlayerComponent,
+    SectionGenericComponent,
+    CardPlayerComponent,
+  ],
   imports: [CommonModule, RouterModule],
-  exports: [SideBarComponent, HeaderUserComponent, MediaPlayerComponent],
+  exports: [
+    SideBarComponent,
+    HeaderUserComponent,
+    MediaPlayerComponent,
+    SectionGenericComponent,
+    CardPlayerComponent,
+  ],
 })
 export class SharedModule {}
