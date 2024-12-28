@@ -37,7 +37,8 @@ export class SideBarComponent implements OnInit {
       {
         name: 'Tu biblioteca',
         icon: 'uil uil-favorite',
-        router: ['/', 'favorite'],
+        router: ['/', 'favorites'],
+        query: { query1: 'valor1' },
       },
     ];
 

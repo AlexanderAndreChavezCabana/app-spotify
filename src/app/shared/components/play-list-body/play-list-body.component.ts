@@ -2,11 +2,11 @@ import { Component, Input, OnInit } from '@angular/core';
 import { TrackModel } from '@shared/models/track.model';
 
 @Component({
-  selector: 'app-favorites-page',
-  templateUrl: './favorites-page.component.html',
-  styleUrls: ['./favorites-page.component.css'],
+  selector: 'app-play-list-body',
+  templateUrl: './play-list-body.component.html',
+  styleUrls: ['./play-list-body.component.css'],
 })
-export class FavoritesPageComponent implements OnInit {
+export class PlayListBodyComponent implements OnInit {
   @Input() Tracks: TrackModel[] = [];
 
   tracks: TrackModel[] = [
@@ -144,7 +144,6 @@ export class FavoritesPageComponent implements OnInit {
       url: 'http://localhost:3000/track-7.mp3',
     },
   ];
-
   constructor() {}
 
   ngOnInit(): void {}
