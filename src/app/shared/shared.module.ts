@@ -8,6 +8,8 @@ import { SectionGenericComponent } from './components/section-generic/section-ge
 import { CardPlayerComponent } from './components/card-player/card-player.component';
 import { PlayListBodyComponent } from './components/play-list-body/play-list-body.component';
 import { PlayListHeaderComponent } from './components/play-list-header/play-list-header.component';
+import { OrderListPipe } from './pipes/order-list.pipe';
+import { ImgBrokenDirective } from './directives/img-broken.directive';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { PlayListHeaderComponent } from './components/play-list-header/play-list
     CardPlayerComponent,
     PlayListBodyComponent,
     PlayListHeaderComponent,
+    OrderListPipe,
+    ImgBrokenDirective,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -28,6 +32,8 @@ import { PlayListHeaderComponent } from './components/play-list-header/play-list
     CardPlayerComponent,
     PlayListBodyComponent,
     PlayListHeaderComponent,
+    OrderListPipe,
+    ImgBrokenDirective,
   ],
 })
 export class SharedModule {}
