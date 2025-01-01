@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { TrackModel } from '@shared/models/track.model';
 import * as dataRaw from '@data/tracks.json';
+
 @Component({
   selector: 'app-play-list-body',
   templateUrl: './play-list-body.component.html',
